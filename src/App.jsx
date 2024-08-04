@@ -8,7 +8,7 @@ import Scorecard from "./Components/Scorecard"
 function App() {
  const context=useContext(Context)
  const router=createBrowserRouter([{
-  path:"/",
+  path:"/Rock-Paper-Scissors",
   element:
   <div className="h-screen w-full bg-[#343434]">
   <div className="w-full h-[100px] bg-[#575757] text-[#dee2e6]  flex justify-center items-center font-bold text-[2.5rem]">
