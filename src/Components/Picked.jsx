@@ -53,9 +53,9 @@ const Picked = () => {
     displayColour();
   }, [context.result, context.compMoved]);
   let moveDisplay = (move) => {
-    if (move === "Rock") return "../../src/assets/fist.png";
-    else if (move === "Paper") return "../../src/assets/hand-paper.png";
-    else return "../../src/assets/scissors (1).png";
+    if (move === "Rock") return "fist.png";
+    else if (move === "Paper") return "hand-paper.png";
+    else return "scissors (1).png";
   };
   return (
     <div className="w-full h-[75%] flex justify-center items-center flex-col">
