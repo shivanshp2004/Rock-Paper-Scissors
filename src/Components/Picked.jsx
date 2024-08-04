@@ -53,9 +53,9 @@ const Picked = () => {
     displayColour();
   }, [context.result, context.compMoved]);
   let moveDisplay = (move) => {
-    if (move === "Rock") return "../../../Rock-Paper-Scissors/src/assets/fist.png";
-    else if (move === "Paper") return "../../../Rock-Paper-Scissors/src/assets/hand-paper.png";
-    else return "../../../Rock-Paper-Scissors/src/assets/scissors (1).png";
+    if (move === "Rock") return "../../assets/fist.png";
+    else if (move === "Paper") return "../../assets/hand-paper.png";
+    else return "../../assets/scissors (1).png";
   };
   return (
     <div className="w-full h-[75%] flex justify-center items-center flex-col">
