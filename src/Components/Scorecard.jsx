@@ -24,7 +24,7 @@ const Scorecard = () => {
 
 
     </div>
-    <NavLink to={"/"}><button className='text-black text-[2.5rem] bg-[#d4a373] ml-[70px] p-2 h-[70px] flex justify-center items-center rounded-3xl w-[145px] border-[6px] border-black hover:bg-[#f6bd60] hover:h-[75px] hover:w-[150px] hover:ml-[67px] hover:mt-[-2px] font-semibold'>Back</button></NavLink>
+    <NavLink to={"/Rock-Paper-Scissors/"}><button className='text-black text-[2.5rem] bg-[#d4a373] ml-[70px] p-2 h-[70px] flex justify-center items-center rounded-3xl w-[145px] border-[6px] border-black hover:bg-[#f6bd60] hover:h-[75px] hover:w-[150px] hover:ml-[67px] hover:mt-[-2px] font-semibold'>Back</button></NavLink>
     </div>
   )
 }
