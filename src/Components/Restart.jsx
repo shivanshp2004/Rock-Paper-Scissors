@@ -27,7 +27,7 @@ const Restart = () => {
 }
    }
    >
-    <img src="../assets/home.png" className='w-[65px] h-[65px]'/>
+    <img src="../../src/assets/home.png" className='w-[65px] h-[65px]'/>
    </button>
     </NavLink>
     </>
