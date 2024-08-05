@@ -61,31 +61,31 @@ const Picked = () => {
     <div className="w-full h-[75%] flex justify-center items-center flex-col">
       {context.compMoved === false ? (
         <>
-          <p className="text-white text-[3.0rem] font-bold">
+          <p className="text-white text-[3.0rem] font-bold max-sm:text-[1.6rem]">
             You Picked {context.move}
           </p>
-          <p className="text-white text-[2.5rem] font-bold">
+          <p className="text-white text-[2.5rem] font-bold max-sm:text-[1.5rem]">
             Computer is Picking...
           </p>
         </>
       ) : (
         <div className="w-full h-[400px] flex justify-around mt-[20px] items-center">
-          <div className="w-[350px] h-[350px] flex flex-col justify-center items-center">
-            <p className="text-[3.5rem] font-bold flex justify-center items-center mb-[15px] text-white">
+          <div className="w-[350px] h-[350px] flex flex-col justify-center items-center max-sm:w-[250px] max-sm:h-[250px]">
+            <p className="text-[3.5rem] font-bold flex justify-center items-center mb-[15px] text-white max-sm:text-[2.0rem]">
               You
             </p>
-            <div className="w-[200px] h-[200px] rounded-full flex justify-center items-center bg-white border-4 border-black">
+            <div className="w-[200px] h-[200px] rounded-full flex justify-center items-center bg-white border-4 border-black max-sm:w-[120px] max-sm:h-[120px]">
               {" "}
-              <img className="w-[150px]" src={moveDisplay(context.move)} />
+              <img className="w-[150px] max-sm:w-[80px]" src={moveDisplay(context.move)} />
             </div>
           </div>
-          <div className="w-[350px] h-[350px] flex flex-col justify-center items-center">
-            <p className="text-[3.5rem] font-bold flex justify-center items-center mb-[15px] text-white">
+          <div className="w-[350px] h-[350px] flex flex-col justify-center items-center ">
+            <p className="text-[3.5rem] font-bold flex justify-center items-center mb-[15px] text-white max-sm:text-[2.0rem]">
               Computer
             </p>
-            <div className="w-[200px] h-[200px] rounded-full flex justify-center items-center bg-white border-4 border-black">
+            <div className="w-[200px] h-[200px] rounded-full flex justify-center items-center bg-white border-4 border-black max-sm:w-[120px] max-sm:h-[120px]">
               {" "}
-              <img className="w-[150px]" src={moveDisplay(context.compMove)} />
+              <img className="w-[150px] max-sm:w-[80px]" src={moveDisplay(context.compMove)} />
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ const Picked = () => {
         <div className="w-[350px] h-[350px] flex flex-col justify-around items-center">
           <div
             id="display"
-            className="h-[100px] w-[400px] flex justify-center items-center text-white text-[4rem] rounded-2xl font-bold bg-{context.colour}"
+            className="h-[100px] w-[400px] flex justify-center items-center text-white text-[4rem] rounded-2xl font-bold bg-{context.colour} max-sm:w-[300px] max-sm:h-[70px] max-sm:text-[2.8rem]"
           >
             {context.result}{" "}
           </div>{" "}

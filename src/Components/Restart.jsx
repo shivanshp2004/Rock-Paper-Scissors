@@ -15,7 +15,7 @@ const Restart = () => {
   return (
     <>
     <NavLink to="/Rock-Paper-Scissors/">
-   <button className=' mt-[40px] h-[100px] w-[100px] rounded-full bg-white flex justify-center items-center border-4 border-black'
+   <button className=' mt-[40px] h-[100px] w-[100px] rounded-full bg-white flex justify-center items-center border-4 border-black max-sm:h-[70px] max-sm:w-[70px]'
    onClick={()=>{context.setIsMoved(false)
     context.setMove("")
     context.setIsMoved(false)
@@ -27,7 +27,7 @@ const Restart = () => {
 }
    }
    >
-    <img src="home.png" className='w-[65px] h-[65px]'/>
+    <img src="home.png" className='w-[65px] h-[65px] max-sm:w-[45px] max-sm:h-[45px]'/>
    </button>
     </NavLink>
     </>
