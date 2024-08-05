@@ -10,7 +10,7 @@ function App() {
  const router=createBrowserRouter([{
   path:"/Rock-Paper-Scissors",
   element:
-  <div className="h-screen w-full bg-[#343434] flex flex-wrap overflow-none h-[95vh]">
+  <div className="h-screen w-full bg-[#343434] flex flex-wrap overflow-none">
   <div className="w-full h-[100px] bg-[#575757] text-[#dee2e6]  flex justify-center items-center font-bold text-[2.5rem] max-sm:text-[1.0rem] max-sm:h-[50px] ">
       LegyStormE's Rock Paper Scissors
   </div>
