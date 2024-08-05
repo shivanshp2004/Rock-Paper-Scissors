@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const Scorecard = () => {
     const context=useContext(Context)
   return (
-    <div className='h-screen w-full bg-[#343434] overflow-none'>
+    <div className='h-screen w-full bg-[#343434] overflow-none max-sm:h-[90%]'>
         <div className='w-full h-[100px] bg-[#575757] flex justify-center items-center font-serif'>
             <p className='text-white font-bold text-[4rem] max-sm:text-[2rem]'>SCORECARD</p>
         </div>
