@@ -4,11 +4,11 @@ import { NavLink } from 'react-router-dom'
 const Scorecard = () => {
     const context=useContext(Context)
   return (
-    <div className='h-screen w-full bg-[#343434] overflow-none max-sm:h-[90%]'>
+    <div className='h-screen w-full bg-[#343434] overflow-none'>
         <div className='w-full h-[100px] bg-[#575757] flex justify-center items-center font-serif'>
             <p className='text-white font-bold text-[4rem] max-sm:text-[2rem]'>SCORECARD</p>
         </div>
-    <div className='w-full h-[55%] bg-[#343434] flex justify-around items-start mt-[100px] max-sm:mt-[200px] max-sm:h-[42%]'>
+    <div className='w-full h-[55%] bg-[#343434] flex justify-around items-start mt-[100px] max-sm:mt-[200px] max-sm:h-[45%]'>
         <div className='flex flex-col justify-center items-center mr-[20px]'>
         <p className='text-[1.8rem] text-white font-bold font-sans'>You</p>
         <p className='text-[1.8rem] text-white font-bold font-sans'>{context.wins}</p>

@@ -10,13 +10,13 @@ function App() {
  const router=createBrowserRouter([{
   path:"/Rock-Paper-Scissors",
   element:
-  <div className="h-screen w-full bg-[#343434] flex flex-wrap overflow-none">
+  <div className="h-screen w-full bg-[#343434] flex flex-wrap overflow-none h-[95vh]">
   <div className="w-full h-[100px] bg-[#575757] text-[#dee2e6]  flex justify-center items-center font-bold text-[2.5rem] max-sm:text-[1.0rem] max-sm:h-[50px] ">
       LegyStormE's Rock Paper Scissors
   </div>
   {context.isMoved===false ? <>
   <NavLink to={"/scorecard"}>
-  <button className="bg-gray-200 rounded-2xl text-[1.5rem] mt-[25px] ml-[1350px] p-4 border-black border-4 h-[45px] flex justify-center items-center hover:bg-gray-400 font-semibold font-sans max-sm:ml-[255px] max-sm:text-[0.8rem] max-sm:h-[35px] max-sm:mt-[-50px]"
+  <button className="bg-gray-200 rounded-2xl text-[1.5rem] mt-[25px] ml-[1350px] p-4 border-black border-4 h-[45px] flex justify-center items-center hover:bg-gray-400 font-semibold font-sans max-sm:ml-[255px] max-sm:text-[0.8rem] max-sm:h-[35px]"
   >Scorecard</button> </NavLink>
   <Icons/><Move/> </> : <Picked/>}
 </div>
